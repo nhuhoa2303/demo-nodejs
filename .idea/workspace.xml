@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12780021-528f-476e-bac5-307696cc8be5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-chat/src/main/java/com/example/demo/controller/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-chat/src/main/java/com/example/demo/dtos/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/config/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/config/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/config/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/controller/JwtAuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/demo-jwt/src/main/java/com/example/demo/service/JwtUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/models/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/models/user-profile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/pipes/date-display.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/services/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/services/chats.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/services/image-upload.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/chat/services/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/untitled2/src/CharDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_6/untitled2/src/NoDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt-fe/src/app/_helpers/auth.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt-fe/src/app/_services/token-storage.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt-fe/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/model/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/payload/request/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/payload/response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/payload/response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/security/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-jwt/src/main/java/com/example/demo/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/.idea/be.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/config/db.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/controller/ProductController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/controller/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/database/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/models/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/models/Type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/be/src/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_8/demo-nodejs-react/font-end/.idea/font-end.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-1/.idea/demo-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/.idea/demo-crud-react.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/src/component/Errors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/src/component/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/src/component/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/src/component/ProductAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/src/component/ProductEdit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-crud-react/src/component/ProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-1/.idea/demo-react-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-1/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-1/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-1/src/addstyle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-1/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-1/src/test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-2/.idea/demo-react-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-2/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-react-2/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-router/.idea/demo-router.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-router/src/component/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-router/src/component/ProductAdd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo-router/src/component/ProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/untitled/src/component/Contract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/untitled/src/component/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../reactjs/untitled/src/component/New.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BaiTapHuongDoiTuongBangBanHang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/.idea/Editable-Tables-jQuery-Bootstrap-Bootstable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/bootstable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/bootstable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/changes.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Editable-Tables-jQuery-Bootstrap-Bootstable/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/configuration/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/configuration/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/repository/ICustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/repository/IGeneralRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/classes/com/codegym/cms/service/IGeneralService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/aspectjrt-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/attoparser-2.0.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/byte-buddy-1.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/groovy-2.5.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/groovy-extensions-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/hibernate-commons-annotations-5.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/hibernate-core-5.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/hibernate-entitymanager-5.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/ognl-3.1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-aop-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-beans-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-context-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-core-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-data-commons-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-data-jpa-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-expression-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-jcl-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-jdbc-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-orm-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-tx-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-web-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/spring-webmvc-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/thymeleaf-3.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/thymeleaf-expression-processor-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/thymeleaf-layout-dialect-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/thymeleaf-spring5-3.0.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/WEB-INF/views/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.63/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_1/ss7_bien_kieu_du_lieu_toan_tu/bai_tap/UngDungCuaMayTinh2Review.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_1/ss7_bien_kieu_du_lieu_toan_tu/bai_tap/UngDungCuaMayTinh2Review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/build/libs/module2_accountname_wbe-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/build/libs/module2_accountname_wbe-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/src/main/webapp/view/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/module2_accountname_wbe/src/main/webapp/view/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/src/main/java/config/CharsetFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss11_mvc/bai_tap/product/src/main/java/config/CharsetFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss12_jdbc_crud/thuc_hanh/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss12_jdbc_crud/thuc_hanh/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss12_jdbc_crud/thuc_hanh/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss12_jdbc_crud/thuc_hanh/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_3/ss12_jdbc_crud/thuc_hanh/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_3/ss12_jdbc_crud/thuc_hanh/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/java/com/codegym/controller/CustomerRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/java/com/codegym/controller/CustomerRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/java/com/codegym/model/contract/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/java/com/codegym/model/contract/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/java/com/codegym/model/customers/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/java/com/codegym/model/customers/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/resources/templates/customer/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/case_study_4/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/demo_spring_security/src/main/java/com/demo/spring_security/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/demo_spring_security/src/main/java/com/demo/spring_security/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss11_wedservice_restful/bai_tap/blog/src/main/java/com/codegym/controller/BlogRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss11_wedservice_restful/bai_tap/blog/src/main/java/com/codegym/controller/BlogRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss1_tong_quan_spring_mvc/bai_tap/ung_dung_chuyen_doi_tien_te/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss1_tong_quan_spring_mvc/bai_tap/ung_dung_chuyen_doi_tien_te/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss1_tong_quan_spring_mvc/bai_tap/ung_dung_chuyen_doi_tien_te/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss1_tong_quan_spring_mvc/bai_tap/ung_dung_chuyen_doi_tien_te/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss1_tong_quan_spring_mvc/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss1_tong_quan_spring_mvc/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss2_spring_controller/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss2_spring_controller/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss5_thao_tac_csdl_orm/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss5_thao_tac_csdl_orm/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss9_aop_exceptionhandling/thuc_hanh/bai_thuc_hanh1/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss9_aop_exceptionhandling/thuc_hanh/bai_thuc_hanh1/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_4/ss9_aop_exceptionhandling/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_4/ss9_aop_exceptionhandling/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/backend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/backend/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/model/notification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/model/notification.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/product/consignment-list/consignment-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/product/consignment-list/consignment-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/product/consignment-list/consignment-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/product/consignment-list/consignment-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/product/consignment-list/consignment-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/product/consignment-list/consignment-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/service/messagingService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/service/messagingService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/app/service/notificationService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/app/service/notificationService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/product-angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/product-angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_5/thi-angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_5/thi-angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/C0222G2-FE-1/coffee-shop/src/app/order/screen-order/screen-order.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/C0222G2-FE-1/coffee-shop/src/app/order/screen-order/screen-order.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/SpringBootFaceBook/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/SpringBootFaceBook/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/src/main/java/com/javainuse/config/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/src/main/java/com/javainuse/config/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/src/main/java/com/javainuse/controller/JwtAuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/src/main/java/com/javainuse/controller/JwtAuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/src/main/java/com/javainuse/model/JwtRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/src/main/java/com/javainuse/model/JwtRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/target/classes/com/javainuse/config/JwtTokenUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/target/classes/com/javainuse/config/JwtTokenUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/target/classes/com/javainuse/controller/JwtAuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/target/classes/com/javainuse/controller/JwtAuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/target/classes/com/javainuse/model/JwtRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/ang-spring-boot-jwt/target/classes/com/javainuse/model/JwtRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/employee/employee.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/employee/employee.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/service/basic-auth-htpp-interceptor.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/angular-interceptor/src/app/service/basic-auth-htpp-interceptor.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/angular7-jwt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/model/jwt/JwtRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/model/jwt/JwtRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/utils/EncrytedPasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/demo-security/src/main/java/com/demo/utils/EncrytedPasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/demo-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/demo-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/test/service2/BillSerivce.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/app/test/service2/BillSerivce.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/push-nofication-angular/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/cart-product/cart-product.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/cart-product/cart-product.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/cart-product/cart-product.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/home-page/home-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/home-page/home-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/home-page/home-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/laptop/laptop.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/laptop/laptop.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/laptop/laptop.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/authguard/admin.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/authguard/login.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/authguard/staff.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/authguard/user.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/change-password-login/change-password-login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/change-password-login/change-password-login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/change-password-login/change-password-login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error401-page/error401-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error401-page/error401-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error401-page/error401-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error403-page/error403-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error403-page/error403-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error403-page/error403-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error404-page/error404-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error404-page/error404-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/error404-page/error404-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/forgot-password-login/forgot-password-login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/forgot-password-login/forgot-password-login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/forgot-password-login/forgot-password-login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/home-login/home-login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/home-login/home-login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/home-login/home-login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/loading/loading.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/loading/loading.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/loading/loading.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/login-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/service/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/service/common.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/service/cookie.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/service/forgot.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/service/login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/login/service/logout.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/model/Category.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/model/Product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/product-add/product-add.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/product-add/product-add.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/product-add/product-add.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/screen-detail/screen-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/screen-detail/screen-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/screen-detail/screen-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/service/ProductService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/share/share.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/smart-phone/smart-phone.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/smart-phone/smart-phone.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/app/smart-phone/smart-phone.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/carousel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/cat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/cat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/cat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/cat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/offer-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/offer-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/payments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/img/vendor-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_interactions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/assets/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2-fe/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/cart-product/cart-product.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/cart-product/cart-product.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/cart-product/cart-product.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/home-page/home-page.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/home-page/home-page.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/home-page/home-page.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/laptop/laptop.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/laptop/laptop.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/laptop/laptop.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/logout/logout.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/logout/logout.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/logout/logout.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/model/Category.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/model/Product.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/screen-detail/screen-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/screen-detail/screen-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/screen-detail/screen-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/AuthGaurdService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/AuthenticateService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/BasicAuthHtppInterceptorService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/ProductService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/authguard/admin.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/authguard/login.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/authguard/staff.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/authguard/user.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/common.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/cookie.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/forgot.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/login.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/service/logout.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/smart-phone/smart-phone.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/smart-phone/smart-phone.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/app/smart-phone/smart-phone.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/carousel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/cat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/cat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/cat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/cat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/offer-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/offer-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/payments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/img/vendor-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/js/main2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/mail/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/mail/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/mail/jqBootstrapValidation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_interactions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/assets/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint2/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2/sprint_2_be/src/main/java/com/example/demo/utils/EncrytedPasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/sprint_2/sprint_2_be/src/main/java/com/example/demo/utils/EncrytedPasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/db_sprint_2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/config/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/config/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/dto/ProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/Specifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/account/AppRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/account/AppUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/account/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/jwt/JwtRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/model/jwt/JwtResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/repository/IAppUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/repository/ICategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/repository/IProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/repository/IUserRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/service/account/IAppUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/service/account/impl/AppUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/service/jwt/AppUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/service/product/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/service/product/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/utils/EncrytedPasswordUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/utils/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/java/com/example/demo/utils/TokenUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/sprint_2_be/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/.idea/online-shop-website-template.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/READ-ME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/carousel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/cat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/cat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/cat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/cat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/offer-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/offer-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/payments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/img/vendor-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/mail/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/mail/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/mail/jqBootstrapValidation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/online-shop-website-template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_interactions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/READ-ME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/checkout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/carousel-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/cat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/cat-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/cat-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/cat-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/offer-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/offer-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/payments.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/product-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/img/vendor-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/laptop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/mail/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/mail/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/mail/jqBootstrapValidation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/online-shop-website-template.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_interactions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/shop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/online-shop-website-template_1/smart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/test/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled/test/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/OCA_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled1/src/OCA_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled1/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled1/src/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/TimSoLonThu2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled1/src/TimSoLonThu2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/test/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/test/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled1/src/test/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled1/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled1/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled2/src/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled2/src/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled2/src/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled2/src/RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled2/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled2/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module_6/untitled2/src/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module_6/untitled2/src/test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/bin/www" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/rest_api/controllers/ProductController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/routes/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/views/error.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/views/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-nodejs/database/connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-nodejs/database/connect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-nodejs/views/add.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-nodejs/views/add.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crud-nodejs/views/edit.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../crud-nodejs/views/edit.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/.idea/demo-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/views/pages/about.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/views/pages/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/views/partials/footer.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/views/partials/head.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-2/views/partials/header.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/demo-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/views/add.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/views/edit.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-3/views/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-4/views/pages/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-4/views/pages/about.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-5/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-5/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-5/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-5/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-6/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-6/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-6/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-6/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-6/views/pages/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-6/views/pages/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-6/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../demo-6/views/partials/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/read.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/read.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/HISTORY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/home.controller.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/home.controller.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/home.controller.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/home.controller.web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/product.models.api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/product.models.api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/add.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/add.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api-2/.idea/demo-api-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api-2/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api-2/src/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api/.idea/demo-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-api/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-nodejs/routes/chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-nodejs/views/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo-rocket.io/views/sender.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/views/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/views/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/views/partials/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/views/partials/footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/views/partials/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/views/partials/head.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testt/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testt/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test-basic-nodejs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test-basic-nodejs/myfirstmodule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test-basic-nodejs/test-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test-basic-nodejs/view/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test-basic-nodejs/view/home.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2FhAosnmB8UaqgDlzIzs396aXn2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\C0222G2--nguyennhuhoa\nodejs\demo-7-connect-db\src\controller" />
+      <recent name="D:\C0222G2--nguyennhuhoa\nodejs\demo-7-connect-db\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\C0222G2--nguyennhuhoa\nodejs\demo-7-connect-db\src" />
+      <recent name="D:\C0222G2--nguyennhuhoa\nodejs\demo-7-connect-db\public\javascripts" />
+      <recent name="D:\C0222G2--nguyennhuhoa\nodejs\demo-7-connect-db\views" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12780021-528f-476e-bac5-307696cc8be5" name="Default Changelist" comment="" />
+      <created>1664934119718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664934119718</updated>
+      <workItem from="1664934122635" duration="34008000" />
+      <workItem from="1665018303406" duration="12882000" />
+      <workItem from="1665066648963" duration="20976000" />
+      <workItem from="1665369216968" duration="7537000" />
+      <workItem from="1665450041487" duration="617000" />
+      <workItem from="1665454536746" duration="559000" />
+      <workItem from="1665459223399" duration="108000" />
+      <workItem from="1665459630692" duration="6507000" />
+      <workItem from="1665479341910" duration="32000" />
+      <workItem from="1667787172137" duration="11541000" />
+      <workItem from="1667869371477" duration="1735000" />
+      <workItem from="1667892939498" duration="3217000" />
+      <workItem from="1668061801305" duration="2405000" />
+      <workItem from="1668160810956" duration="209000" />
+      <workItem from="1669436235419" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="133" key="FileChooserDialogImpl" timestamp="1668064703165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="133" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1668064703165" />
+    <state width="1311" height="246" key="GridCell.Tab.0.bottom" timestamp="1667790083620">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="246" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1667790083620" />
+    <state width="1311" height="246" key="GridCell.Tab.0.center" timestamp="1667790083619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="246" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1667790083619" />
+    <state width="1311" height="246" key="GridCell.Tab.0.left" timestamp="1667790083619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="246" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1667790083619" />
+    <state width="1311" height="246" key="GridCell.Tab.0.right" timestamp="1667790083619">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="246" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1667790083619" />
+    <state x="367" y="109" key="RollbackChangesDialog" timestamp="1667787364115">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="367" y="109" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1667787364115" />
+    <state x="171" y="18" key="SettingsEditor" timestamp="1664936742964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="171" y="18" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1664936742964" />
+    <state x="324" y="171" key="run.anything.popup" timestamp="1664954806479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="171" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1664954806479" />
+    <state x="333" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1665454558098">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="333" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1665454558098" />
+  </component>
+</project>
